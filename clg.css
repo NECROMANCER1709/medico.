@@ -1,0 +1,330 @@
+/* Css Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+}
+
+/* body  */
+body {
+    content: "";
+
+    position: absolute;
+    background: #313131;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+/* Navigation Bar  */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Navigation Bar:Logo and Image  */
+
+#logo {
+    margin: 10px 10px;
+}
+
+#logo img {
+    margin: 0px 20px;
+    height: 80px;
+}
+
+
+/* Navigation Bar: list styling  */
+
+#navbar {
+    position: relative;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color:transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+#navbar ul li a:hover {
+    display: block;
+    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 25px;
+    color: rgb(10, 10, 10);
+    background-color: aliceblue;
+}
+
+
+/* Drop Down  */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(247, 246, 246);
+    padding: -1px 200px;
+    background-color: inherit;
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 10px 23px;
+    border-radius: 25px;
+    color: rgb(245, 242, 242);
+    background-color: rgb(245, 241, 241);
+
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #0a0a0a;
+    padding: 14px 20px;
+    background-color: inherit;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropdown-submenu .dropdown-content {
+    display: none;
+    position: absolute;
+
+    min-width: 286px;
+    margin: 4px 0px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-submenu .dropdown-content a {
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: #000;
+}
+
+
+
+
+
+
+
+/* footer  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.center {
+    width: 100vw;
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    text-align: center;
+    background:transparent;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    bottom: 0;
+
+}
+
+/* cfu info design  */
+.main_para {
+    color: white;
+    font-weight: bold;
+    padding: 12px 12px;
+}
+
+.main_para h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding: 12px 12px;
+}
+
+ .right-side table{
+    margin: auto;
+}
+.main_para .right-side table td, th {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+    color: rgb(243, 244, 245);
+
+}
+
+.main_para .right-side table tr,
+td {
+    border: 2px solid white;
+    padding: 4px;
+    text-align: center;
+    color: rgb(243, 245, 247);
+}
+
+.main_para .right-side table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Reco{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    padding: 12px 12px;
+}
+.CFU{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    padding: 12px 12px;
+}
+table{
+    margin: auto;
+}
+
+.main_para .right-side table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* BTN  */
+.main_btn{
+    
+    text-align: center;
+   
+}
+.main_btn a{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+ 
+}
+.main_btn a:hover{
+    
+    color: rgb(14, 13, 13);
+   
+
+ 
+}
+
+
+/* UTILITY CLASS */
+.primary {
+    font-size: 2.8rem;
+    padding: 12px 12px;
+
+
+}
+
+.btn {
+    padding: 4px 8px;
+    margin: 15px 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+    background-color: rgb(252, 251, 251);
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    padding: 4px 8px;
+    margin: 15px 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.centers {
+    text-align: center;
+}
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 768px) { 
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    /* Media query for larger screens */
+     @media screen and (min-width: 1200px) {
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+    }

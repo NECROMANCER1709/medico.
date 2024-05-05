@@ -1,0 +1,78 @@
+ 
+
+
+
+    #home h1 {
+
+        font-size: 1.8rem;
+    }
+
+    #home h3 {
+        font-size: 1.2rem
+    }
+
+    #home p {
+        font-size: 1.0rem;
+    }
+
+    #navbar {
+        
+        flex-direction: column;
+    }
+
+    #navbar ul li a {
+        font-size: 1.4rem;
+
+        padding: 10px 23px;
+
+    }
+
+
+    #navbar ul li a:hover {
+
+        padding: 10px 23px;
+    }
+
+    #clgs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #clgs .box img {
+        height: 123px;
+        width: 195px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .dropdown-submenu .dropdown-content {
+
+        min-width: 185px;
+        
+
+    }
+    .dropdown-submenu .dropdown-content a {
+
+        font-size: 1.3rem;
+
+
+    }
+    .center {
+       
+        font-size: 1rem;
+    
+        padding: 5px;
+        
+    
+    }
+    
+
+    @media screen and (max-width:574px){
+        .dropdown-submenu .dropdown-content {
+           
+            min-width: 70px;
+    }
+}
+
+
